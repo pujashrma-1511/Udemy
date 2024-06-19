@@ -22,13 +22,13 @@ $navbar-default-bg: black;
 }
 
 .jumbotron {
-  background-image: asset-url('cards.png');
+  background-image: asset-url('image2.jpg');
   background-size: cover;
   height: 470px;
 }
 
 .jumbotron h1 {
-  color: black;
+  color: white;
   text-align: center;
   margin-bottom: 30px;
   letter-spacing: -1px;
@@ -40,15 +40,26 @@ $navbar-default-bg: black;
   background-color: black;
 }
 
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
 footer {
+  height: 60px;
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
+  border-top: 1px solid black;
+  flex-shrink: none;
+  background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+}
+
+footer a {
+  color: #eaf6f6;
 }
 
 footer a:hover {
-  color: #222;
+  color: #00204a;
 }
 
 footer small {
@@ -106,6 +117,25 @@ footer ul li {
   width: auto !important;
 }
 
-#sticky-footer {
-  flex-shrink: none;
+#scrollspyHeading1 {
+  font-weight: bold;
+  font-size: 4.0em;
+  color: #8A2BE2;
+  border-bottom: 2px solid #f00
+   
+}
+
+#scrollspyHeading1:hover {
+  text-decoration: none;
+}
+
+
+.scrollspyHeading {
+  font-weight: bold;
+  font-size: 2.5em;
+  color: Coral;
+}
+
+.scrollspyHeading:hover {
+  text-decoration: underline 2px #8A2BE2;
 }
