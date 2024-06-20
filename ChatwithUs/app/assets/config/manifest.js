@@ -7,4 +7,4 @@
 //= link jquery.min.js
 //= link popper.min.js
 //= link bootstrap.min.js
- 
+//= link semantic.min.js
